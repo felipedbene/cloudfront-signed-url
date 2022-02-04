@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/home/ubuntu/environment/.c9/workspaceStorage/webpack/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.jdt.core

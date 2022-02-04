@@ -1,0 +1,145 @@
+!SESSION 2022-02-04 23:21:48.796 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -data /home/ubuntu/environment/.c9/workspaceStorage/webpack/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:52.601
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:52.865
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:52.936
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:52.945
+!MESSAGE Initializing Java Language Server 0.55.0.202004292352
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:52.984
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:53.050
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:53.488
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.166
+!MESSAGE Workspace initialized in 2183ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.190
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.198
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.199
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.243
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.252
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.259
+!MESSAGE Creating the Java project environment_6932bd0c
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.288
+!MESSAGE Finished creating the Java project environment_6932bd0c
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2022-02-04 23:21:55.404
+!MESSAGE Failed to create invisible project
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to create linked resource from '/home/ubuntu/environment' to the invisible project 'environment_6932bd0c'.
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:285)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:290)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:253)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:250)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:218)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.eclipse.core.internal.resources.ResourceException: '/home/ubuntu/environment' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:282)
+	... 25 more
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2022-02-04 23:21:55.406
+!MESSAGE Failed to create linked resource from '/home/ubuntu/environment' to the invisible project 'environment_6932bd0c'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: '/home/ubuntu/environment' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:282)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:290)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:253)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:250)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:218)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-02-04 23:21:55.406
+!MESSAGE '/home/ubuntu/environment' is not a valid location for linked resources.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:56.965
+!MESSAGE Reconciled 0. Took 533 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:57.482
+!MESSAGE begin problem for /signer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:57.482
+!MESSAGE 1 problems reported for /signer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:57.514
+!MESSAGE Validated 1. Took 147 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:59.090
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:59.155
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:59.155
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:59.193
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

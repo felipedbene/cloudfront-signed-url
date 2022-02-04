@@ -1,0 +1,105 @@
+!SESSION 2022-02-04 23:21:48.867 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.13
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -data /home/ubuntu/environment/.c9/workspaceStorage/webpack/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.335
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.669
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.750
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.760
+!MESSAGE Initializing Java Language Server 0.55.0.202004292352
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.800
+!MESSAGE Installed reference:file:/home/ubuntu/.c9/dependencies/vscode-java-debug/92d2431d1b518163ac72fc3510298ccb1ee406f433db31a39eb3d0ddff6f2721a8b7da7a66b9aa666bb362308708e8ee3827f8910709138887752d3ac7307f8e/server/com.microsoft.java.debug.plugin-0.28.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.895
+!MESSAGE Started reference:file:/home/ubuntu/.c9/dependencies/vscode-java-debug/92d2431d1b518163ac72fc3510298ccb1ee406f433db31a39eb3d0ddff6f2721a8b7da7a66b9aa666bb362308708e8ee3827f8910709138887752d3ac7307f8e/server/com.microsoft.java.debug.plugin-0.28.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.907
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.907
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.getSettings, java.project.refreshDiagnostics, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.isTestFile, java.project.getClasspaths, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.project.getSemanticTokensLegend]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:55.939
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:56.096
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:56.097
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:56.119
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:56.379
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:58.608
+!MESSAGE Workspace initialized in 2698ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:58.627
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:58.646
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:58.708
+!MESSAGE >> New configuration: {java={debug={logLevel=warn, settings={showHex=false, showStaticVariables=false, showQualifiedNames=false, showLogicalStructure=true, showToString=true, maxStringLength=0.0, numericPrecision=0.0, hotCodeReplace=manual, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true, console=integratedTerminal, exceptionBreakpoint={skipClasses=[]}, stepping={skipClasses=[], skipSynthetics=false, skipStaticInitializers=false, skipConstructors=false}, jdwp={limitOfVariablesPerJdwpRequest=100.0, requestTimeout=3000.0}}}, home=/usr/lib/jvm/java-11-openjdk-amd64, jdt={ls={vmargs=-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m}}, errors={incompleteClasspath={severity=warning}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}, runtimes=[], checkProjectSettingsExclusions=false}, trace={server=off}, import={maven={enabled=true}, gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}, version=null, arguments=null, jvmArguments=null, home=null, user={home=null}}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={downloadSources=false, updateSnapshots=false}, signatureHelp={enabled=false}, project={referencedLibraries=[lib/**/*.jar]}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=50.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false}, server={launchMode=Hybrid}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, requirements={JDK11Warning=true}, format={enabled=false, settings={url=false, profile=false}, comments={enabled=false}, onType={enabled=false}}, progressReports={enabled=false}, showBuildStatusOnStart={enabled=false}, saveActions={organizeImports=false}, semanticHighlighting={enabled=false}, foldingRange={enabled=false}, selectionRange={enabled=false}, referencesCodeLens={enabled=false}, implementationsCodeLens={enabled=false}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:58.709
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:59.087
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:59.095
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:59.096
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:21:59.105
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:22:00.282
+!MESSAGE Reconciled 0. Took 429 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:22:01.324
+!MESSAGE begin problem for /signer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:22:01.324
+!MESSAGE 2 problems reported for /signer.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:22:01.349
+!MESSAGE Validated 1. Took 129 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:22:46.900
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY java-debug 1 0 2022-02-04 23:22:46.930
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:22:47.969
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:22:47.987
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:22:48.297
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:22:54.040
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-02-04 23:22:54.046
+!MESSAGE Clearing problems for /signer.java

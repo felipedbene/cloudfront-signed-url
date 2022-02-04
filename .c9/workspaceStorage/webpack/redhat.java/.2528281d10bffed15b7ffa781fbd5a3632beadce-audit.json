@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/ubuntu/environment/.c9/workspaceStorage/webpack/redhat.java/.2528281d10bffed15b7ffa781fbd5a3632beadce-audit.json",
+    "files": [
+        {
+            "date": 1644016908033,
+            "name": "/home/ubuntu/environment/.c9/workspaceStorage/webpack/redhat.java/client.log.2022-02-04",
+            "hash": "af099fec9b01f0b9028e0561dce0fad2"
+        }
+    ]
+}
